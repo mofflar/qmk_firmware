@@ -1,5 +1,10 @@
 #pragma once
 
+#define TAPPING_TERM 200
+#define TAPPING_TOGGLE 2
+
+#define RGBLIGHT_LAYERS
+
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PREONIC_SOUND)
     // #define STARTUP_SONG SONG(NO_SOUND)
@@ -35,3 +40,4 @@
 
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
+
